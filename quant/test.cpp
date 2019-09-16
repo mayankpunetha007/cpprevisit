@@ -17,7 +17,7 @@ using namespace boost;
 void testLinear(){
     std::cout<<"Started";
     cpp_dec_float_50 data[11] = {1,2,3,4,5,6,6,7,8,9,10};
-    Linear l =  Linear(data);
+    CFA_level_2::quant::Linear l =  Linear(data);
     std::cout<<l.mean();
     std::cout<<l.mode();
     std::cout<<l.median();
