@@ -1,5 +1,6 @@
 
 #include "Regression.h"
+#include <map>
 
 cpp_dec_float_50 CFA_level_2::quant::Linear::mean(){
     int size = sizeof(this->initial);
