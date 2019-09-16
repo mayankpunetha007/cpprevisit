@@ -9,6 +9,7 @@
 
 #include "Regression.h"
 #include <boost/multiprecision/cpp_dec_float.hpp>
+#include <iostream>
 
 using namespace CFA_level_2::quant;
 using namespace boost;
